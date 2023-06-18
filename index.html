@@ -3,9 +3,153 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins|Playfair Display|Montserrat|Rubik|Roboto Condensed|Merriweather|Volkhov|Open Sans">
+    <link rel="stylesheet" href="static/css/style.css">
     <title>Document</title>
 </head>
 <body>
+
+    <div class="customize_btn">
+        <span class="material-symbols-rounded">
+            palette
+        </span>
+        customize
+    </div>
+    <div class="customize_window">
+        <div class="header">
+            <div class="item">
+                <h3 class="title">
+                    T-Shirts Store
+                </h3>
+            </div>
+            <div class="icon">
+                <span class="material-symbols-outlined">
+                    close
+                </span>
+            </div>
+        </div>
+        <div class="colors">
+            <p class="prompt">
+                Use the template as-is or try different colors and fonts from the options below.
+            </p>
+            <div class="default_prompt">
+                <h4>Try Other Colors</h4>
+                <a class="Default_button">Default</a>
+            </div>
+            <div class="default_color_button">
+                <div>
+                    <p class="text">Default Colors</p>
+                </div>
+                <div class="ca" style="background-color: violet;"></div>
+                <div class="ca" style="background-color: red;"></div>
+                <div class="ca" style="background-color: black;"></div>
+                <div class="ca" style="background-color: burlywood;"></div>
+                <div class="ca" style="background-color: burlywood;"></div>
+            </div>
+            <div class="color_buttons">
+                <div class="ca" style="background-color: violet;"></div>
+                <div class="ca" style="background-color: red;"></div>
+                <div class="ca" style="background-color: black;"></div>
+                <div class="ca" style="background-color: burlywood;"></div>
+                <div class="ca" style="background-color: burlywood;"></div>
+            </div>
+            <div class="color_buttons">
+                <div class="ca" style="background-color: tomato;"></div>
+                <div class="ca" style="background-color: violet;"></div>
+                <div class="ca" style="background-color: wheat;"></div>
+                <div class="ca" style="background-color: blue;"></div>
+                <div class="ca" style="background-color: burlywood;"></div>
+            </div>
+            <div class="color_buttons">
+                <div class="ca" style="background-color: gray;;"></div>
+                <div class="ca" style="background-color: greenyellow;"></div>
+                <div class="ca" style="background-color: goldenrod;"></div>
+                <div class="ca" style="background-color: burlywood;"></div>
+                <div class="ca" style="background-color: burlywood;"></div>
+            </div>
+            <div class="color_buttons">
+                <div class="ca" style="background-color: burlywood"></div>
+                <div class="ca" style="background-color: grey;"></div>
+                <div class="ca" style="background-color: black;"></div>
+                <div class="ca" style="background-color: violet;"></div>
+                <div class="ca" style="background-color: burlywood;"></div>
+            </div>
+            <div class="color_buttons">
+                <div class="ca" style="background-color: blanchedalmond;"></div>
+                <div class="ca" style="background-color: yellowgreen;"></div>
+                <div class="ca" style="background-color: yellow;"></div>
+                <div class="ca" style="background-color: brown;"></div>
+                <div class="ca" style="background-color: burlywood;"></div>
+            </div>
+            <div class="color_buttons">
+                <div class="ca" style="background-color: burlywood;"></div>
+                <div class="ca" style="background-color: pink;"></div>
+                <div class="ca" style="background-color: palevioletred;"></div>
+                <div class="ca" style="background-color: white;"></div>
+                <div class="ca" style="background-color: burlywood;"></div>
+            </div>
+            <div class="color_buttons">
+                <div class="ca" style="background-color: beige;"></div>
+                <div class="ca" style="background-color: beige;"></div>
+                <div class="ca" style="background-color: burlywood;"></div>
+                <div class="ca" style="background-color: grey;"></div>
+                <div class="ca" style="background-color: burlywood;"></div>
+            </div>
+            <div class="color_buttons">
+                <div class="ca" style="background-color: beige;"></div>
+                <div class="ca" style="background-color: blueviolet;"></div>
+                <div class="ca" style="background-color: violet;"></div>
+                <div class="ca" style="background-color: purple;"></div>
+                <div class="ca" style="background-color: burlywood;"></div>
+            </div>
+        </div>
+        
+        <div class="hr_div">
+            <hr>
+        </div>
+
+        <div class="fonts">
+            <div class="default_prompt">
+                <h4>Try Other Fonts</h4>
+                <a class="Default_button">Default</a>
+            </div>
+            <div class="default_font_button">
+                <p><b style="font-weight: 900;">Poppins</b> / Poppins</p> 
+            </div>
+            <div class="font_buttons">
+                <div class="btn-fonts" style="font-family: Playfair Display;" onclick="changeFont('Playfair Display')"><b>A</b>a</div>
+            </div>
+            <div class="font_buttons">
+                <div class="btn-fonts" style="font-family: Montserrat;" onclick="changeFont('Montserrat')"><b>A</b>a</div>
+            </div>
+            <div class="font_buttons">
+                <div class="btn-fonts" style="font-family: Roboto Condensed;" onclick="changeFont('Roboto Condensed')"><b>A</b>a</div>
+            </div>
+            <div class="font_buttons">
+                <div class="btn-fonts" style="font-family: Rubik;" onclick="changeFont('Rubik')"><b>A</b>a</div>
+            </div>
+            <div class="font_buttons">
+                <div class="btn-fonts" style="font-family: Open Sans;" onclick="changeFont('Open Sans')"><b>A</b>a</div>
+            </div>
+            <div class="font_buttons">
+                <div class="btn-fonts" style="font-family: Merriweather;" onclick="changeFont('Merriweather')"><b>A</b>a</div>
+            </div>
+            <div class="font_buttons">
+                <div class="btn-fonts" style="font-family: Volkhov;" onclick="changeFont('Volkhov')"><b>A</b>a</div>
+            </div>
+            <div class="font_buttons">
+                <div class="btn-fonts" style="font-family: Poppins;" onclick="changeFont('Poppins')"><b>A</b>a</div>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/37e07fa3b1.js" crossorigin="anonymous"></script>
     <script src="static/js/script.js"></script>
 </body>
 </html>
